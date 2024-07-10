@@ -1,24 +1,29 @@
 {
   "name": "checkout_system",
   "version": "1.0.0",
+  "description": "As our Sales manager is quite indecisive, we want the pricing rules to be as flexible as possible as they can change in the future with little notice.",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chinm333"
+    "url": "git+https://github.com/Chinm333/checkout_system.git"
   },
-  "author": "Chinmoy",
+  "keywords": [
+    "checkout_system"
+  ],
+  "author": "Chinmoy Das",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/Chinm333/checkout_system/issues"
+  },
+  "homepage": "https://github.com/Chinm333/checkout_system#readme",
+  "dependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
-    "typescript": "^5.5.2"
+    "ts-jest": "^29.2.1",
+    "typescript": "^5.5.3"
   }
 }
